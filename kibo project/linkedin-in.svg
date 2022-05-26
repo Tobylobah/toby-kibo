@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29.597" height="29.596" viewBox="0 0 29.597 29.596">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0093ff;
+      }
+    </style>
+  </defs>
+  <path id="Icon_awesome-linkedin-in" data-name="Icon awesome-linkedin-in" class="cls-1" d="M6.625,29.6H.489V9.837H6.625ZM3.554,7.142A3.57,3.57,0,1,1,7.107,3.554,3.584,3.584,0,0,1,3.554,7.142ZM29.59,29.6H23.468V19.978c0-2.292-.046-5.232-3.19-5.232-3.19,0-3.679,2.491-3.679,5.067V29.6H10.469V9.837h5.885v2.7h.086a6.448,6.448,0,0,1,5.806-3.191c6.21,0,7.352,4.089,7.352,9.4V29.6Z" transform="translate(0 0)"/>
+</svg>

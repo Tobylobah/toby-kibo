@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.666" height="30.479" viewBox="0 0 30.666 30.479">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0093ff;
+      }
+    </style>
+  </defs>
+  <path id="Icon_awesome-facebook" data-name="Icon awesome-facebook" class="cls-1" d="M31.228,15.9A15.333,15.333,0,1,0,13.5,31.042V20.327H9.6V15.9H13.5V12.517c0-3.842,2.288-5.965,5.791-5.965a23.6,23.6,0,0,1,3.433.3v3.771H20.789a2.216,2.216,0,0,0-2.5,2.394V15.9h4.252l-.68,4.432H18.291V31.042A15.338,15.338,0,0,0,31.228,15.9Z" transform="translate(-0.563 -0.563)"/>
+</svg>

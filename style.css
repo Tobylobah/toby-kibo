@@ -1,0 +1,426 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.blue-border{
+    width:100%;
+    height:30px;
+    background-color: #4522a9;
+    border:1px solid #4522a9;
+}
+.p-blue-border{
+    color:white;
+    font-size: 18px;
+    text-align: center;
+   top:50px;
+   justify-content: center;
+   line-height: 0.1;
+   /*how to write text a border*/
+}
+.kibo-logo{
+    margin-top: 15px;
+    width:200px;
+    margin-left: 40px;
+}
+
+nav {
+    display: flex;
+    padding-right:  6%;
+    padding-left:  6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    flex:1;
+    text-align: center;
+} 
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 120px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    margin-top: 30px;
+    color: #4522a9;
+    text-decoration: none;
+    font-size: 19px;
+    display: inline-block;
+    
+
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+   color:grey;
+    display: block;
+    margin: auto;
+    transition: 0.5s; 
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+.nav-flex{
+display:flex;
+
+}
+.flex-nav{
+    display:flex;
+    justify-content: space-between;
+}
+.button-nav{
+    color:white;
+    border:1px solid #ff6900;
+    background-color: #ff6900;
+    margin-top:20px;
+    margin-left: 300px;
+    width:150px;
+    height:50px;
+}
+.header{
+    background-color: rgb(250, 252, 255);
+}
+
+.text-box{
+    width: 90%;
+    color:black;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+   
+}
+.text-box h1{
+    font-size:5rem;
+    text-align: left;
+    color: #4522a9;
+    font-weight: 700;
+    
+    margin-top:260px;
+
+}
+.text-box p{
+    margin: 10px 0 40px;
+    text-align:left;
+        font-weight: 400;
+    font-size: 20px;
+    color: #4522a9;
+    line-height:32px;
+   
+}
+.student{
+    float: left;
+    display:inline-block;
+        text-decoration:none;
+        border: 1px solid #4522a9;
+        padding: 20px 34px;
+        font-size:13px;
+        position:relative;
+        cursor:pointer;
+        border-radius:0em;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-color: white;
+        color:#4522a9;
+    }
+   
+    .student-link{
+        font-size:16px;
+        text-decoration: none;
+        color:#4522a9;
+        line-height:1.2;
+        font-weight:700;
+        /*ont-body: "Nunito Sans",sans-serif;*/
+    }
+      
+
+.kibo-girl{
+    flex-basis:32%;
+   
+   margin-left: 700px;
+ position: relative;
+   
+  margin-top: 5px;
+    left:0;
+}
+.kibo-girl{
+   width:800px;
+    display:inline-block;
+}
+.part2{
+    /*ont-h3: "Libre Baskerville",serif;*/
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height:1.2 ;
+    margin-bottom: 1.5rem;
+    color:#4522a9;
+    text-align: center;
+    margin-top: 120px;
+}
+.ihj{
+    width:100px;
+    margin-left: 140px;
+    margin-top: 80px;
+}
+.part2-flex{
+    display:flex;
+    justify-content: space-around;
+}
+.part2-border{
+    border:1px solid rgb(250, 252, 255);
+    background-color: rgb(250, 252, 255);
+    width:350px;
+}
+.part2-p{
+    margin: 0 0 1.5rem;
+    color: #4522a9;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 32px;
+  
+}
+.part2-2nd-p{
+    text-align: center;
+    margin: 0 0 1.5rem;
+    color: #4522a9;
+    line-height:1.3;
+    font-size: 18px;
+}
+.header3{
+    background-color: 
+
+    #FFF6EC!important;
+    height:00px;
+}
+.part3-flex{
+    display: flex;
+  margin-left: 260px;
+  margin-right: 200px;
+  justify-content: space-between;
+  margin-top: 120px;
+  
+}
+.part3-img{
+    width:400px;
+    height: 300px;
+    border-radius: 7px;
+}
+.part3-border{
+    border:1px solid rgb(247, 243, 243);
+    background-color: white;
+    width:400px;
+    height:570px;
+    box-shadow: 1px 1px 5px rgb(218, 216, 216);
+    border-radius: 7px;
+}
+.part3-p{
+    margin: 0 0 1.5rem;
+    color: black;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 32px;
+    margin-top: 30px;
+  
+}
+.part3-2nd-p{
+    text-align: center;
+    margin: 0 0 1.5rem;
+    color: grey;
+    line-height:1.3;
+    font-size: 19.5px;
+}.button-part3{
+    color:white;
+    border:1px solid #ff6900;
+    background-color: #ff6900;
+    margin-top:20px;
+    margin-left: 100px;
+    width:150px;
+    height:40px;
+}
+.part3-h3{
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height:1.2;
+ padding-top: 80px;
+    text-align: center;
+    /*    --font-h3: "Libre Baskerville",serif*/
+
+}
+.blue-bg{
+    width:1440px;
+    height:1000px;
+    position:absolute;
+    margin-top:100px;
+}
+.blue-bg-h3{
+    position:relative;
+    padding-top: 350px;
+   /* -font-h3: "Libre Baskerville",serif;*/
+   font-size:2.25rem;
+   line-height: 1.2;
+   font-weight: 600;
+   text-align: center;
+   color:white;
+}
+
+.testimonial-flex{
+    display: flex;
+   justify-content: space-evenly;
+}
+.profile{
+    width: 78.69px;
+    height: 78.69px;
+    border-radius: 50%;
+    margin-left: 29px;
+    margin-top: 55px;
+    
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.mentor-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.card{
+    border:1px solid rgba(109,203,255,0.10);
+    background-color: rgba(109,203,255,0.10);
+    width:400px;
+    height:200px;
+    position: relative;
+    border-radius: 8px;
+    margin-left: 40px;
+}
+.mentor2-flex{
+    display: flex;
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.info1{
+    margin-top:75px;
+    margin-left: 15px;
+    font-size: 18px;
+color:white;
+}
+.card1{
+    border:1px solid  #ffffff;
+    background-color:  #ffff;
+    width:405px;
+    height:313px;
+    position: relative;
+    border-radius: 8px;
+    margin-left: 40px;
+}
+.info2{
+    margin-top:45px;
+    margin-left: 15px;
+    font-size: 18px;
+color:#4522a9;
+}
+.info{
+    color:#4522a9;
+    font-size: 18px;
+    /*nunito sans*/
+    padding-left:50px;
+    padding-top: 30px;
+}
+.section3{
+    background-color: rgb(250, 252, 255); 
+}
+.profile1{
+    width: 61.86px;
+    height: 61.86px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 35px;
+    
+}
+iframe{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.iframe-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.end{
+    background-color: #4522a9;
+    width:100%;
+    height:300px;
+    margin-top: 80px;
+}
+.end-img{
+    margin-left:600px;
+    width:70px;
+    height:70px;
+    margin-top: 60px;
+}
+.end-h4{
+    text-align: center;
+    color:white;
+/*nt-h4: "Libre Baskerville",serif*/
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+    margin-bottom: 1.5rem;
+}
+.end-button{
+        color:white;
+        border:1px solid #ff6900;
+        background-color: #ff6900;
+        width:150px;
+        height:40px;
+        margin-left: 570px;
+}
+.kibo-logo-footer{
+    margin-top: 120px;
+    width:200px;
+    margin-left: 60px;
+}
+.footer-p{
+    margin-top: 30px;
+    color:#667b8a;
+    line-height: 1.1;
+    font-size:19px;
+    margin-left: 60px;
+}
+.footer-flex{
+    display:flex;
+}
+.part2-section{
+    background-color:rgb(250, 252, 255); 
+  
+    margin-left: 100px;
+    width:100%;
+    
+}
+.footer-p-2{
+    color: #4522a9;
+  /*var(--color-content-text);
+    --font-body: "Nunito Sans",sans-serif*/
+    font-weight: 700!important;
+    font-size: 16px!important;
+    line-height: 22px!important;
+    text-align: center;
+}
